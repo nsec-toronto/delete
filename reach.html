@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- CSS Stylsheet -->
+    <link rel = "stylesheet" type = "text/css" href = "landingpage.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>NSEC</title>
+
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark" style="position:fixed;width:100%;opacity:0.95;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" style="color: #b3b3b3"><img src="logo/logo - png.png" width="60px"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-sm-end" id="mainNav">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link split" href="/jokepage/jokepage.html"><i class="fab fa-buffer"></i>Our Staff</a>
+              <a class="nav-item nav-link split" href="/profilepage/profilepage.html"><span id="navprof"></span>Patient Information</a>
+              <a class="nav-item nav-link" href="/logoutpage/logoutpage.html">FAQ</a> 
+              <a class="nav-item nav-link" href="reach.html">Reach Us</a> 
+            </div>
+          </div>
+      </div>
+    </nav>
+    <div class="carousel slide">
+        <svg width="100%" height="300px"><rect width="100%" height="100%" fill="#72A5BF"/></svg>
+        <div class="carousel-caption text-left text-dark">
+            <img src="logo/square - png.png" width="125px">
+            <h1>Reach Us</h1>
+        </div>
+    </div>
+
+    <br>
+    
+    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+    <li class="nav-item">
+        <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">Contact Information</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" id="my-tab" data-toggle="tab" href="#my" role="tab" aria-controls="my" aria-selected="false">Location</a>
+    </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab"><br>            
+      
+    </div>
+    <div class="tab-pane fade justify-content-center" id="my" role="tabpanel" aria-labelledby="my-tab">
+        <main class="container">
+
+          <br><br>
+            <div class="row mb-2">
+              <div class="col-md-6">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                  <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-dark">Address:</strong>
+                    <p class="card-text mb-auto">4040 Finch Ave E <br>Scarborough, Ontario <br>M1S 4V5</p><br>
+                    <img src="location.png" style="height:354.3px; overflow: hidden;"> 
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                  <div class="col p-4 d-flex flex-column position-static">
+                    <strong class="d-inline-block mb-2 text-dark">Google Maps:</strong>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.575788124914!2d-79.29626404872137!3d43.80241485068414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d3e09a2b6e81%3A0x773abab815a624dc!2sNorth%20Scarborough%20Endoscopy%20Inc!5e0!3m2!1sen!2sca!4v1609097897053!5m2!1sen!2sca" width="fill" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </main>
+    </div>
+    
+    <hr class="featurette-divider"><br>
+
+    <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2020 North Scarborough Endoscopy Clinic.</p>
+        <br>
+    </footer>
+
+    <!-- Run Personal Script -->
+    <script type="text/javascript" src="homepage.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
