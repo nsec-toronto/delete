@@ -1,3 +1,0 @@
-logo secondary: #72A5BF
-logo primary: #1B5D81
-#4C8AAB
